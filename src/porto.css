@@ -1,0 +1,152 @@
+@media (prefers-reduced-motion: no-preference){
+  .sideleft{
+    animation: slide1 0.75s,fadeIn 1s;
+  }
+  .box-link{
+    animation: slide1 1.25s, fadeIn 1s;
+  }
+  .box-desc{
+    animation: slide1 1s, fadeIn 1s;
+  }
+  .boxcarousel{
+    animation: slide2 1s, fadeIn 0.3s;
+  }
+  .title{
+    animation: fadeIn 1s;
+  }
+}
+
+.App-header-porto {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sideleft{
+      background-color:whitesmoke;
+      min-width: 20vw;
+      min-height: 88vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+  }
+  
+  .sideright{
+      background-color: #0c0c0c;
+      display: flex;
+      flex-direction: column;
+      min-width: 80vw;
+      min-height: 88vh;
+  }
+
+  .box-desc{
+      background-color:whitesmoke;
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+      margin-top: 0.25cm;
+      position: relative;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 1px;
+      align-items:baseline;
+      justify-content:center;
+  }
+
+  .text-desc{
+    font-size: 14px;
+    margin-left: 11px;
+    text-align: left;
+    font-family: 'Century Gothic', sans-serif;
+  }
+
+  .text-desc1{
+    font-size: 12px;
+    margin-left: 11px;
+    text-align: left;
+    font-family: 'Century Gothic', sans-serif;
+  }
+
+  .box-link{
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin-top: 0.25cm;
+    position: relative;
+    border-radius: 10px;
+    align-items:baseline;
+    justify-content:center;
+}
+
+  .boxcarousel{
+    width: 75vw;
+    height: 70vh;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    margin-left: 1cm;
+    margin-top: 0.7cm;
+    position: relative;
+    
+  }
+  
+  .title{
+      font-weight: 600px;
+      font-style: italic;
+      color: #ffa500;
+      font-size: 38px;
+      padding-top: 0.5cm;
+  }
+
+  .title2{
+    font-size: 32px;
+    font-weight: 600px;
+    font-style: italic;
+    color: #ffa500;
+    -webkit-text-stroke: 0.65px black;
+    text-align: left;
+}
+
+  .link-porto {
+    color : #ffa500;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Century Gothic', sans-serif;
+    padding-left: 0.5cm;
+    font-size: 16px;
+  }
+  .link-porto:hover{
+    color:whitesmoke;
+    padding-left: 0.25cm;
+
+  }
+
+  .link-porto-viz {
+    color : #0c0c0c;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Century Gothic', sans-serif;
+    padding-left: 0.5cm;
+    font-size: 14px;
+  }
+  .link-porto-viz:hover{
+    color: #ffa500;
+  }
+
+  @keyframes slide1 {
+    0% {left:-10cm;}
+    100% {left:0cm;}
+  }
+
+  @keyframes fadeIn {
+    from { opacity:0;}
+    to {opacity:1;}
+  } 
+
+  @keyframes slide2 {
+    0% {top:-10cm;}
+    100% {top:0cm;}
+  }

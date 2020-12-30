@@ -1,0 +1,371 @@
+body{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 60vmin;
+  pointer-events: none;
+  position: absolute;
+}
+.App-logo-me {
+  height: 50vmin;
+  pointer-events: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: fadeIn 5s, spin infinite 15s linear ;
+  }
+  .App-logo-me{
+    animation: fadeIn 4s;
+
+  }
+  .App-link{
+    animation: fadeIn 1s;
+  }
+  .App-cover{
+    animation: fadeIn 1.5s, slide 1.5s;
+  }
+  .cv{
+    animation: slides 1s, fadeIn 0.5s;
+  }
+
+  .chart{
+    animation: sizze 1.5s, fadeIn 0.5;
+  }
+
+  .link2{
+    opacity: 0;
+    animation-name: fadeIn ;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .text1{
+    opacity: 0;
+    animation-name: fadeIn ;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+  .text2{
+    opacity: 0;
+    animation-name: fadeIn ;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+  .text-header{
+    animation: fadeIn 1s;
+  }
+  .text-header1{
+    animation: fadeIn 1.5s;
+  }
+}
+
+.App-header {
+  background-color:#0c0c0c;
+  min-height:12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  padding-left: 5cm;
+  position: relative;
+}
+
+.App-logos {
+  background-color:#0c0c0c;
+  min-height:58vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.App-body{
+  background-color: #0c0c0c;
+  min-height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  text-align: center;
+}
+
+.App-header-cv {
+  background-color:#0c0c0c;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+}
+
+.pic{
+ width: 40%;
+}
+
+.App-cover {
+  min-height: 88vh;
+  min-width: 20vw;
+  position:relative;
+  background-color:#0c0c0c;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  padding-left: 3cm;
+}
+
+.text-cover {
+  text-align: center;
+  color : #ffa500;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 33px;
+  font-style: italic;
+}
+
+.text-cover1 {
+  text-align: center;
+  color : whitesmoke;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'Century Gothic', sans-serif;
+  font-style: italic
+}
+
+.App-cv {
+  min-height: 88vh;
+  min-width: 60vw;
+  background-color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.cv{
+  min-height: 55vh;
+  min-width: 50vw;
+  background-color: #ffa500;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cv1{
+  min-height: 20vh;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 8px;
+}
+
+.text-cv{
+  padding:18px;
+  font-size: 16px;
+  font-weight:500;
+  text-align: left;
+  position: relative;
+  font-family: 'Century Gothic', sans-serif;
+}
+.name{
+  font-weight: bolder;
+  color:#0c0c0c;
+  font-style: italic;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.name:hover{
+  -webkit-text-stroke: 0.5px #0c0c0c;
+  color:#ffa500;
+}
+
+.chart{
+  width: 500px;
+  padding-bottom: 8px;
+}
+
+.App-link {
+  background-color: #ffa500;
+  min-height: 10vh;
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: #0c0c0c;
+  font-weight: 600;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.link:hover{
+  color:white;
+}
+
+.link1 {
+  text-align: center;
+  display: flex;
+  color : #ffa500;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.link1:hover{
+  color:white;
+  padding-left: 0.25cm;
+}
+
+.link2 {
+  text-align: center;
+  display: flex;
+  color : #ffa500;
+  text-decoration: none;
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.blank {
+  background-color: #0c0c0c;
+  min-height: 2vh;
+  display: flex;
+}
+
+.App-header-contact {
+  background-color:#0c0c0c;
+  min-height: 33vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  position: relative;
+}
+
+.App-header-contact1 {
+  background-color:#0c0c0c;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:center;
+  position: relative;
+}
+
+.text { 
+  box-shadow: .3em 0 0 #ffa500;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Century Gothic', sans-serif;
+  font-style: italic;
+  margin: 2rem 1rem;
+	width: 24.5ch;
+  overflow: hidden;
+  color: #FFF;
+	white-space: nowrap;
+	animation: caret .5s step-end infinite alternate,
+             type 3s steps(23, end)
+}
+
+.text1{
+  text-align: left;
+  padding-top: 22px;
+  font-size: 210px;
+  font-weight: 600;
+  color:#ffffff;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.text2{
+  text-align: left;
+  padding-left:20px;
+  padding-top: 25px;
+  font-size: 18px;
+  color:#ffffff;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.text-header1{
+  font-size: 18px;
+  color:whitesmoke;
+  font-style: italic;
+  font-family: 'Century Gothic', sans-serif;
+
+}
+
+.text-header{
+  font-size: 24px;
+  color: #ffa500;
+  font-weight: 600;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity:0;}
+  to {opacity:1;}
+} 
+
+@keyframes slide {
+  from {left:10cm;}
+  to {left:0cm;}
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+
+}
+@keyframes caret { 
+  50% { 
+    box-shadow: .6em 0 0 transparent;
+  }
+}
+@keyframes slides{
+  from {right:10cm;}
+  to {right:0cm;}
+}
+@keyframes sizze{
+  from {width: 0px;}
+  to {width: 500px;}
+}

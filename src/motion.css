@@ -1,0 +1,20 @@
+.card{
+    margin-top: 50px;
+
+}
+.video{
+    align-self: center;
+    justify-self: center;
+    margin-left: 5cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75vw;
+    height: 70vh;
+}
+.atext{
+    color: #545454;
+    font-family: 'Century Gothic',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: italic;
+}

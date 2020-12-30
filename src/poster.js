@@ -1,0 +1,19 @@
+import React from 'react';
+import './art.css';
+
+function CardPoster(){
+  return(
+        <div class="wrapper">
+          <div class="gallery">
+            <ul className='uul'>
+                <li className='li-poster'><img className='imj-poster' src="https://lh3.googleusercontent.com/fife/ABSRlIqsmLcZdviv56aAZktT6-edZ5pDK-WGh7I5ARygaPBH8URSDMAOqnCeFJhOo76DyFC5h8Mk6_gDRBgmf3dhocT26-rxLiYZe23-2e4xTl01AO_ZCDX41FSg0rrwoGe0qcldYyBr3x_hf1SVOPeNc8lxPFmeUkSD2oCtkHdUFRm6YY0P3zAi3MlEJ90SYOE3vwkCGTHqGHRmpQlO38BaIoltg2wlaB-PLN8Zj6IsP7_eWTjZUFpdw-ws6RJYDR2I8yej7i9urkrbjvxObzuPyXPhxjoynkIy6dqLZIFPaOacEqATT4_L-7KttaUIZYJTp8AlYYFUouGhDMlxUzqH-4Tj1XLE7eU2KXodnXm0EO5wv47t-4PU6of12iZvlv8KA6Bo5LzZnyR4JjCGRncD1ezK_rTtvESpPkffZlMiimPIjl3MW5jLCxnYQ67Vu3-H9O7lXiUcPZ9F8u0EykY3ZY4mxKQ4ertG3I7wkhDesnaKhH_DAIV2w-P7K7BYAiQcGJbFQ30lK3wVuxsUOwaE3ZN-MbCOSpC0McRX__QAy47ybMKKizxpxp5qnWjfTBSvhYWbshT9B27s4fhFoSroUJHWK6y4mZEguQdP6eHKpSAwL7T260p-gTySdGMoYQM3IWsuhWDyAUJBC5skkOiOZ68_pbpEKVpORV4QVWU9fpVVBNMAajfjQRF9XA4QfEStJDVwWqAtCabycUfFgXXC7tr2mn88wKTRakI=s695-w475-h695-no?authuser=1" /></li>
+                <li className='li-poster'><img className='imj-poster' src="https://lh3.googleusercontent.com/crz02ljC51XErl768UkvxD6zC08aPKpZLnk4n_AP5ITTc6Lh2ArWOIawKwFmkRfOCBSs2HD4xqBcwfICIhjWSnBT5JtAvgIZ2SH07cQBtjv9B2bEvkCfLCC6yBskOO1gB4e5n350EH403WUVJUah2F4pgLYvUjfPpL6qlfzcORxZ9B9-tda9Q4PFGtYgSb4Kt8TCElPUdi3tGyaf7iLXC7iLmL1F63S70y4fkALM8WND55eNM444rTKGCCWnqE4HfSVietMoKFwgzXoybdtKL5kk2bhSUW3J70VNzfyR4r0xsg47Sj3qqRl4P9ZtPls4FZiH3z0M4u-Ft8sWS6EnD68aCQZIUfjq1RHDb28lxzgUovi3yUJfujO7OQ6LLAMJwu0qIXQQEv_AZanDpR0Jhmyj_39URBdu67vFde7--z4RPwLg_jbNdktKqRbLnooHsYyUDhtyuL_99q_-7eNovV4HT2iABMv0F5dKjeTD7jxlx73SpS-yafK5uFzGGYJyhoi8KHxVFKUjfed7pxwZL8kkCFS_I6X9ieE-xdaFK0LsvqsQMn854kvECmpYg6832H_E9Y4S0HmH19KWsGKQpzqeTubET05LSVYHQ6WRaxcGn-IuM9cjOVuRugYuVfW88WAIsHOfKeOLbrfkkECnZs45ik7Elwg6Sldtszb47s-fbWWgUlZIi9eAPok=w493-h695-no?authuser=1" /></li>
+                <li className='li-vp'><img className='imj-vp' src="https://lh3.googleusercontent.com/QGvunuuqxMAbp_eZc8qD9DsSks0JdsDhSisKS4FxOBgPxbMJbXo6ZhveOvA_-KxvLsCLw9dZVM7M74Mq2z1B7PxWerC1DvQv1GDhWI4O7vpcOQO9K9KtN8HXs7SEUtBDX7JPZV_dovKjcspGRNv_0YCkZYwwxAyTxg3F2cRa3vP4nGEdrcA3Vyc0Wb_UH1NlqgL4biiVcoISCdmCcQlKjDhL6Ih3V1lkrCVqqFLp7y9KIi-lGRPQ9vZtdu47F9ETUUVasmVcKCxwyIXRT5eJ7t7mtnbx3wMwltsABuksIf6GTtSIf9WbqgYYbgnO1ZllLZaD_3lX4aSsmHM-8bA-q0I-22gNHB7KbmxMr1nY46iHMCtiDawUR3CipR1bHaStSyGL71GxMG5NtTVnxNGCzLQQATih6cW7jBYwJ4rLoeDOdLPa5gg7miZ_25pdBynzrz8ZNHewcBIWG43MKhpGxmpPYnUwSkDtGC9CtBvOCUMOVeg5b5ULYVpgSt3Uqhv8DeMPuf6CgaCoL2XrRazjg5-3mvldzX8emURg8_1vuck3NjB5ZsRD-QafKkjHU8ikj8hUomjaqqbv9XO7Y5i4TOjj6EIJobDi6FqN2WpqiVU9Kd51wmi9Oa_66bIWzGUozPI4Z43nMcPfwrcObr5CyzWmx2YwtOSYklfLBzO7RVLfC39v0E_Xl6m5CxA=w983-h695-no?authuser=1" /></li>
+                <li className='li-vp'><img className='imj-vp' src="https://lh3.googleusercontent.com/HZEK195-9i2CdLaVbp9WHJ_Wde7o1TezC3KkugczQmW_CPxf1heGnGNHPDOHazBxyOG1DiLFVSFF0oNCfS2xZ-dUn5Jn01lhiuBlxEUrrW-qy4r_J6kOagCQdfqkXUxk0R2mwX4t8fpcch5wOX8wE44uILhCCUug9jQZHy5tEqILdSMWxv59XoukAyTz7CF8kDHw39G2feg9s2S7t814mAus6326NErQAhc0JlUBopXcE1uMWuBYTK1NujZ5v2aUOZ0RzD7pETHqa71XgrpjiXbOVJFGcEeiDheLMn9cOsN7tHamvtz2t-77U8Pcd94sCWbxGX-QY42uCEWxbQwRRFNJ53pcF7mKPS77BLbqr0HtediP8fTsvgxTWc1XdjNKv9wRU7vs3X7Ln4MiU1I53mMA86l4W0oI3g72wem2vN2itU6ghLScGI5lrwkQn3Vj77rWN8FKB0NaCqXwSgygjr8FZKcZ9XSoDe-jIR7dAIT4ZpNGTgps7Mg1VpbdOL5uebkeQCzeZD29e0CeiX6i7Jg-4HSEyURYvQVP8EGwKEDj7NmO8cSWMlDVpkJwHLaJEMOqdVxriTqMbVWTTXew2igeDl9sHWJcJMQdwTrPTFVgr43gZ5cn8YmPr6qswjiO2-V2Rb39ivL0tYsJGIEPyNyZ-9Q0Mr7MJywBg_jGoe2SRG-ZrtUQ4EzB3Cg=w1168-h600-no?authuser=1" /></li>
+            </ul>
+          </div>
+        </div>
+  )
+}
+
+export default CardPoster;

@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+
+.wrapper {
+  width: 72vw;
+  height: 35vh;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-logo {
+	width: 72vw;
+	height: 30vh;
+  }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.uul {
+	list-style-type:none;
+}
+
+.uuul {
+	list-style-type:none;
+	display: flex;
+	flex-direction: column;
+margin-right: 40px;
+}
+
+.uull {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* animation */
+div.gallery ul li, div.gallery li img {
+	-webkit-transition: all 0.1s ease-in-out;
+  	-moz-transition: all 0.1s ease-in-out;
+  	-o-transition: all 0.1s ease-in-out;
+  	transition: all 0.1s ease-in-out;
+}
+
+.lii {
+	position: relative;
+	float: left;
+	width: 204px;
+	height: 204px;
+	margin: 5px;
+	padding: 5px;
+  z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+.lii:hover {
+	z-index: 5;
+}
+
+/* Image is position nicely under li */
+.imj {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 204px;
+	height: 204px;
+	background: #f0f0f0;
+}
+
+.imj:hover {
+	width: 290px;
+	height: 290px;
+	margin-top: -160px;
+	margin-left: -160px;
+	top: 65%;
+	left: 65%;
+}
+
+/* vector */
+.lli {
+	position: relative;
+	float: left;
+	width: 214px;
+	height: 141px;
+	margin: 5px;
+	padding: 5px;
+  z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+.lli:hover {
+	z-index: 5;
+}
+
+/* Image is position nicely under li */
+.jim {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 214px;
+	height: 141px;
+	background: #f0f0f0;
+}
+
+.jim:hover {
+	width: 304px;
+	height: 201px;
+	margin-top: -160px;
+	margin-left: -160px;
+	top: 65%;
+	left: 65%;
+}
+
+/* poster */
+.li-poster {
+	position: relative;
+	float: left;
+	width: 284px;
+	height: 415px;
+	margin: 0px;
+	padding: 5px;
+  	z-index: 0;
+}
+
+.li-poster2 {
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 415px;
+  	z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+.li-poster:hover {
+	z-index: 5;
+}
+
+/* Image is position nicely under li */
+.imj-poster {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 284px;
+	height: 415px;
+	background: #f0f0f0;
+}
+
+.imj-poster2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 350px;
+	height: 415px;
+	background: #f0f0f0;
+}
+
+
+.imj-poster:hover {
+	width: 334px;
+	height: 475px;
+	margin-top: -300px;
+	margin-left: -200px;
+	top: 65%;
+	left: 65%;
+}
+
+.imj-poster2:hover {
+	width: 380px;
+	height: 475px;
+	margin-top: -300px;
+	margin-left: -240px;
+	top: 65%;
+	left: 65%;
+}
+
+/* vector-poster */
+.li-vp {
+	position: relative;
+	float: left;
+	width: 304px;
+	height: 197.5px;
+	margin-left: 5px;
+	margin-top: 3px;
+	padding: 5px;
+  	z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+.li-vp:hover {
+	z-index: 5;
+}
+
+/* Image is position nicely under li */
+.imj-vp {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 304px;
+	height: 197.5px;
+	background: #f0f0f0;
+}
+
+.imj-vp:hover {
+	width: 344px;
+	height: 241px;
+	margin-top: -160px;
+	margin-left: -215px;
+	top: 65%;
+	left: 65%;
+}
+
+.ui{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+/* brand-box */
+.li-bb {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+  z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+.li-bb:hover {
+	z-index: 5;
+}
+
+/* Image is position nicely under li */
+.imj-bb {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	background: #f0f0f0;
+}
+
+.imj-bb:hover {
+	width: 270px;
+	height: 270px;
+	margin-top: -160px;
+	margin-left: -160px;
+	top: 65%;
+	left: 65%;
+}
+
+/* Responsive hack */
+@media only screen and (min-width: 499px) and (max-width: 1212px) {
+	.wrapper {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 498px) {
+	.wrapper {
+		width: 300px;
+	}
+
+	.ull {
+		list-style-type: none;
+		margin: 0;
+	}
+	.uul {
+		list-style-type: none;
+		margin: 0;
+	}
+}
