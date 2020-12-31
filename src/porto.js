@@ -141,10 +141,9 @@ function UI() {
     return(
         <>
         <a className='text-desc'>I created UI designs for several applications. Here I will present LiveNOW and SharingCaring. I made this prototype with Figma.
-         <br/>Please wait for loading.
          <br/>For better view, please click on projects's name below the prototype.
-         <br/>
          </a>
+         <br/>
          <a className='text-desc1'>And Of course, My portofolio website is actualy my portofolio too. I made it using React and CSS.</a>
          </>
     )
