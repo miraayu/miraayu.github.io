@@ -39,7 +39,7 @@ function CV(){
           <div className='cv1'>
             <a className='text-cv'>
               My name is <span className='name'>Miranti Ayudya Kusumawardani</span> and I'm a <span className='name'>Visual Designer</span> with more than <span className='name'>3 years experience</span> in several creative projects.
-              <br/>I like to learn new things to improve my skills. That's why I started to learn and doing some <span className='name'>UI design</span> that requires me to learn programming language such as <span className='name'>React, JavaScript, HTML, and CSS.</span>
+              <br/>I like to learn new things to improve my skills. That's why I started to learn some basic programming language to understand better how the developer will implement my design.
               <br/>I have several interests that we can talk about, like, design (of course), programming, animations, games, music, and writting.
               <br/><br/>I am very confident in my ability to master some software to make <span className='name'>the imagination comes true</span>.
             </a>
@@ -47,7 +47,7 @@ function CV(){
             <img src={Chart} className='chart'/>
           </div>
         </div>
-        <a className='link2' href='https://drive.google.com/file/d/1OADn2Yil5NQB8ddWxynorVzX4CiPl45Y/view?usp=sharing' target='_blank'>My Resume (.pdf)</a>
+        <a className='link2' href='https://drive.google.com/file/d/1oM6RtFy4yQh7T3zsPDuiwTU6r0SxkUPw/view?usp=share_link' target='_blank'>My UI / UX Portfolio (.pdf)</a>
       </div>
     </div>
   );
@@ -78,8 +78,6 @@ function Contact(){
           <br></br>
           <br/>
           <a>Reach me!</a><br></br><br></br>
-          <a className='link1' href='https://instagram.com/miraayukusuma' target='_blank'>Instagram</a>
-          <a className='link1' href='https://twitter.com/miraayudya' target='_blank'>Twitter</a>
           <a className='link1' href='https://id.linkedin.com/in/miraayukusuma' target='_blank'>LinkedIn</a>
           <a className='link1' href='mailto:mirantiayudyak@gmail.com'>mirantiayudyak@gmail.com</a>
         </div>
